@@ -46,4 +46,4 @@ function bonk(e){
     scoreBoard.textContent = score;
 }
 
-moles.forEach((mole) => mole.addEventListener("click", bonk))
+moles.forEach((mole) => mole.addEventListener("click", bonk));
